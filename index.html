@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>INJURY RESERVE</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="http://www.youtube.com/player_api"></script>
+    </head>
+
+    <body>
+    
+    <script>
+    console.log(YT)
+    function onYouTubePlayerAPIReady() {
+      console.log ("yt api ready")
+      var player = new YT.Player('player', {
+        events: {'onReady': onPlayerReady}
+      });
+      console.log (player)
+    }
+
+    function onPlayerReady(event) {
+      console.log('player redy')
+      event.target.mute();
+    }
+    </script>
+
+    <!-- video -->
+
+        <section id="motion">
+
+      <div style="width: 100%; height: 100%">
+          <iframe id = "player" frameborder="0" height="100%" width="100%" src="//www.youtube.com/embed/kuPvNA67H7E?playlist=kuPvNA67H7E&start=9&autoplay=1&controls=0&loop=1&rel=0&showinfo=0&autohide=1&wmode=transparent&hd=1&modestbranding=1&enablejsapi=1" muted = "1"></iframe>
+        </div>
+     
+        <!--
+          <video loop autoplay muted id="intro-video">
+            <source src="/video/bg.mp4" type="video/mp4"/>
+          </video>
+        -->
+        </section>
+   
+        <section class="header-10-sub v-center bg-midnight-blue">
+            <div class="background"></div>
+            <div>
+                <div class="container">
+                    <div class="logo"></div>
+
+                    
+                    <div class = 'social'>
+
+                    <a href = "http://soundcloud.com/injuryreserve">
+                      <i class="social fa fa-soundcloud"></i>
+                    </a>
+
+                    <a href = "http://youtube.com/injuryreserve">
+                      <i class="social fa fa-youtube"></i>
+                    </a>
+
+                    <a href = "https://www.facebook.com/injuryreserve">
+                      <i class="social fa fa-facebook"></i>
+                    </a>
+
+                    <a href = "https://twitter.com/Injury__Reserve">
+                      <i class="social fa fa-twitter"></i>
+                    </a>
+
+                    <a href = "http://instagram.com/injuryreserve">
+                      <i class="social fa fa-instagram"></i>
+                    </a>
+
+                    </div>
+
+                    <br>
+                </div>
+            </div>
+            <a class="control-btn fui-arrow-down" href="#event-info"> </a>
+        </section>
+
+        <!-- content-7  -->
+        <section id="event-info" class="content-7 v-center">
+            <div>
+
+                <div class="container">
+                    <br>
+                    <br><br>
+                    <h3 style="text-align:center">EVENTS</h3>
+                    <div class = "event-copy">
+
+                    <br>
+
+                    <a href = "https://www.facebook.com/events/507241429412140/">
+                    Las Fuegas: -Halloweekend Show- DOGBRETH // RED TANK! // INJURY RESERVE // GLASSPOPCORN
+                    </a>
+                    <br>
+                    OCT 30 7:00 pm
+                    <br>
+                    515 E Vista Del Cerro Dr, Tempe, AZ
+
+                    <br> <br>
+
+                    <a href = "https://www.facebook.com/events/639408116175931/">
+
+                    JAM ODDYSSEY with Random aka Mega Ran, Brad B + Dumperfoo (Insects) with ChoiceOne, Injury Reserve, TKLB?, Grim Moses + Joe Baggs (TSOI), Soy Sauce Boss, Anteye + DJ Crispy                    </a>
+                    <br>
+                    NOV 22 9:00 pm
+                    <br>
+SO Lounge
+10630N 59th Ave #104, Glendale, Arizona 85304
+                    <br> <br>
+
+
+                <div>
+
+              <br><br><br>
+              <form action="//forms.brace.io/injuryreserve@gmail.com" method="post">
+
+              <center>
+              
+              <table class = 'contact-form'>
+                <tr>
+                 <td>
+                  <label class="h6">Name</label>
+                 </td>
+                 </tr>
+                 <tr>
+                 <td>
+                  <input type="text" name="name">
+                 </td>
+                </tr>
+
+                <tr>
+                  <td>
+                   <label class="h6">Your email</label>
+                  </td>
+                  </tr>
+                 <tr>
+                  <td>
+                    <input type="email" name="_replyto">
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <label class="h6">Subject</label>
+                  </td>
+                  </tr>
+                 <tr>
+                  <td>
+                    <input type="text" name="_subject">
+                  </td>
+                </tr>
+               
+
+                <tr>
+                  <td>
+                    <label class="h6">Message</label>
+                  </td>
+                  </tr>
+                 <tr>
+                  <td>
+                      <textarea rows="7" name="message"></textarea>
+                  </td>
+                <tr>
+               <tr>
+
+                 <td>
+              <button type="submit" class="submit">Send</span>
+              </button>
+                </td>
+               </tr>
+             </table>
+                           
+            </form>
+
+                </div>
+
+            </div>
+        </section>
+    </body>
+</html>
