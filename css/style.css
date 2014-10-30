@@ -698,10 +698,9 @@ section * {
 
 .container .logo {
   display: inline-block;
-  margin-top: 10px;
   width: 442px;
   height: 442px;
-  background: url('/img/logo@2x.png') no-repeat top center;
+  background: url('/img/logo.png') no-repeat top center;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
