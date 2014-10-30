@@ -788,10 +788,10 @@ section * {
   }
 
   .control-btn {
-    margin-top: -500px;
+    /*display: none;  */
   }
   .container .logo {
-    margin-top: -150px;
+    margin-top: -10px;
     margin-bottom: 20px;
     width: 224px;
     height: 224px;
@@ -838,11 +838,6 @@ section * {
   filter: alpha(opacity=85);
 }
 
-@media all and (max-width: 600px) {
-  .header-10-sub .background {
-    background-size: auto 100%;
-  }
-}
 
 .header-10-sub {
   position: relative;
@@ -852,6 +847,16 @@ section * {
   color: white;
   text-align: center;
 }
+
+@media all and (max-width: 600px) {
+  .header-10-sub {
+    min-height: 200px;
+  }
+  .header-10-sub .background {
+    background-size: auto 100%;
+  }
+}
+
 
 .header-10-sub.v-center {
   display: table;
@@ -932,6 +937,12 @@ section * {
   padding-bottom: 130px;
   position: relative;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .content-7 {
+    padding-top: 90px;
+  }
 }
 
 .content-7 h3 {
