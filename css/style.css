@@ -1,10 +1,21 @@
-/*** uncss> filename: css/style.css ***/
 
 .social i {
   font-size: 40px;
   color: #fff;
   margin-right: 20px;
 }
+
+
+@media only screen and (max-width: 760px) {
+  #player { display:none; }
+  #motion {
+    background-color: #56A0D3;
+  }
+  .social i {
+    margin-right: 15px;
+  }
+}
+
 
 .submit {
   -webkit-appearance: none;
@@ -678,8 +689,8 @@ section * {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .container .logo {
-    background: url('/img/logo.png') no-repeat;
-    background-size: 442px 442px;
+    background: url('/img/logo@2x.png') no-repeat;
+    background-size: 330px 330px;
   }
 }
 
