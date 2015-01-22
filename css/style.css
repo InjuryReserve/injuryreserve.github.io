@@ -1,3 +1,6 @@
+#wrapper {
+  height: 100%;
+}
 
 .social {
   margin-top: 8px;
@@ -602,6 +605,11 @@ h3 {
 
 h6 {
   font-weight: normal;
+}
+
+#event-info {
+  background-color: #fff !important;
+  z-index: 100;
 }
 
 .event-copy {
