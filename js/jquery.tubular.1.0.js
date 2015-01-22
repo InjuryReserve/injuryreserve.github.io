@@ -117,7 +117,7 @@
             e.preventDefault();
             var currentVolume = player.getVolume();
             if (currentVolume < options.increaseVolumeBy) currentVolume = options.increaseVolumeBy;
-            player.setVolume(currentVolume -` options.increaseVolumeBy);
+            player.setVolume(currentVolume - options.increaseVolumeBy);
         }).on('click', '.' + options.volumeUpClass, function(e) { // volume up button
             e.preventDefault();
             if (player.isMuted()) player.unMute(); // if mute is on, unmute
