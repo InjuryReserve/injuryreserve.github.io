@@ -117,7 +117,7 @@
             e.preventDefault();
             var currentVolume = player.getVolume();
             if (currentVolume < options.increaseVolumeBy) currentVolume = options.increaseVolumeBy;
-            player.setVolume(currentVolume - options.increaseVolumeBy);
+            player.setVolume(currentVolume -` options.increaseVolumeBy);
         }).on('click', '.' + options.volumeUpClass, function(e) { // volume up button
             e.preventDefault();
             if (player.isMuted()) player.unMute(); // if mute is on, unmute
@@ -130,7 +130,7 @@
     // load yt iframe js api
 
     var tag = document.createElement('script');
-    tag.src = "//www.youtube.com/iframe_api";
+    tag.src = "https://www.youtube.com/iframe_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
